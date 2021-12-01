@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    font-family: 'Courier New', Courier, monospace;
+    width: 1200px;
+    height: 1700px;
+    background: #5e5d5a;
+    text-align: center;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    text-align: center;
+    background-color: #e7c96c;
+}
+
+header {
+    width: auto;
+    height: 4%;
+    background-color: #e7c96c;
+}
+
+footer {
+    width: auto;
+    height: 5%;
+    border: 2px solid #333132;
+    background-color: orange;
+}
+
+#contenido {
+    height: 89%;
+    border: 2px solid #333132;
+    background: olivedrab;
+}
+
+
+/*css Contenido*/
+
+#campo1 {
+    background: #caa32d;
+    height: 11%;
+    flex-direction: column;
+    border: 2px solid #333132;
+    text-align: left;
+}
+
+#campo2 {
+    width: 28%;
+    height: 90%;
+    background: #0d5c48;
+    border: 2px solid #333132;
+    float: right;
+}
+
+#campo3 {
+    background: #0d5c48;
+    height: 90%;
+    width: 71.3%;
+    border: 2px solid #333132;
+    float: left;
+}
+
+#campo1 p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#campo1 h2 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 20, 20);
+    margin-top: 30px;
+    text-align: justify;
+    margin: 16px;
+}
+
+h4 {
+    font-size: 24px;
+    align-items: baseline;
+}
+
+.fecha {
+    text-align: left;
+    margin: 16px;
+}
+
+.fecha h2 {
+    padding: 10px;
+}
+
+.video {
+    width: 90%;
+    margin: 20px 20px 0 20px;
+}
+
+.campo3 .ol {
+    display: flex;
+    color: #f50003;
+}
+
+.requisitos ol {
+    margin-left: 30px;
+}
+
+.objetivos ul {
+    columns: 2;
+    margin-left: 25px;
+}
+
+.objetivos li,
+.requisitos li {
+    text-align: left;
+    padding: 2px;
+}
+
+.requisitos ul {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.descripcion {
+    text-align: left;
+    margin: 5px;
+}
+
+.descripcion ul {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.descripcion li {
+    text-align: left;
+}
+
+.descripcion h4 {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.descripcion p {
+    text-align: left;
+    padding: 2px;
+}
+
+
+/*Otros cursos*/
+
+.card {
+    padding: 7px;
+    background: #6a95c4;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    width: 92%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.card img {
+    width: 90%;
+    margin: 20px 20px 0px 20px;
+}
+
+.card h3 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.card p {
+    padding: 2px;
+    text-align: left;
+}
+
+.contenido2 {
+    text-align: left;
+}
+
+.contenido2 h2 {
+    font-size: 14px;
+    display: flex;
+}
+
+.contevideo a {
+    text-decoration: none;
+    border-radius: 3px;
+    background: #04026b;
+    color: aqua;
+}
+
+.contevideo a:hover {
+    background-color: #093a7a;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.contenido2 p {
+    font-size: 12px;
+    display: flex;
+}
+
+.contenido2 a {
+    color: aqua;
+    text-shadow: #5e5d5a;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.contenido2 a:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: dotted;
+}
+
+.otroscursos {
+    margin-top: 20px;
+    border: 2px solid #5e5d5a;
+}
+
+#contenedor header a {
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-style: italic;
+    color: #82e7ce;
+}
+
+#contenedor header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 3px;
+}
+
+.box__copyright p {
+    margin-top: 40px;
+    color: #0a0707;
+}
